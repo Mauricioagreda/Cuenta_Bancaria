@@ -23,5 +23,10 @@
             Cbu = ++Contador;
             Saldo = 0;
         }
+
+        public interface IEstrategia
+        {
+            void Debitar(Cliente cliente, double monto);
+        }
     }
 }

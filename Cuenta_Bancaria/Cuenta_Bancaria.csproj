@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ahorrista.cs" />
+    <Compile Include="Cauto.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Cuenta.cs" />
+    <Compile Include="Emergencia.cs" />
+    <Compile Include="IEstrategia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,6 +8,7 @@ namespace Cuenta_Bancaria
         private string Nombre { get; set; }
         private string Apellido { get; set; }
         private double Efectivo { get; set; }
+        private IEstrategia estrategia;
 
         public double Saldo => this.Efectivo + Cuenta.Saldo;
 
